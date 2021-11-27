@@ -10,3 +10,17 @@ git status
 
 git pull --allow-unrelated-histories
 
+# to switch to a branch
+git checkout <branch name>
+
+# to create a branch and switch to i it
+git checkout -b <new branch name>
+
+# to create a new branch
+git branch <new branch name>
+
+# to show all branches
+git branch
+
+
+
