@@ -1,0 +1,12 @@
+git remote add origin https://github.com/NaserFaryad/git-init.git
+
+git remote -v
+
+git push
+
+git pull
+
+git status
+
+git pull --allow-unrelated-histories
+
