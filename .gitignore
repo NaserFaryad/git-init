@@ -1,0 +1,12 @@
+ #temp.c
+ #*.zip
+#src/*
+#!src/style.css
+## OS generated files
+#.DS_Store
+## ignore a folder
+#folder_name
+
+## you can write your comments
+
+git_commands.txt

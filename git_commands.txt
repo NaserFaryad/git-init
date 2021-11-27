@@ -32,5 +32,7 @@ git branch -d alpha
 # when another person created a new branch we should FETCH it to use it in our PC
 git fetch origin
 
+#ignoring some files with .gitignore file
+
 
 
