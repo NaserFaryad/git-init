@@ -22,8 +22,12 @@ git branch <new branch name>
 # to show all branches
 git branch
 
-// Merge branches
+// Merge branches \\
+#Merge Alpha branch to Master branch
+git merge alpha
 
+#delete alpha branch
+git branch -d alpha
 
 
 
