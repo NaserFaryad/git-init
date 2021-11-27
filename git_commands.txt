@@ -29,5 +29,8 @@ git merge alpha
 #delete alpha branch
 git branch -d alpha
 
+# when another person created a new branch we should FETCH it to use it in our PC
+git fetch origin
+
 
 
