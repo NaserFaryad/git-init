@@ -22,5 +22,8 @@ git branch <new branch name>
 # to show all branches
 git branch
 
+// Merge branches
+
+
 
 
