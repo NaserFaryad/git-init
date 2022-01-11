@@ -33,7 +33,7 @@ Ubuntu:
 During operation verification
 ```
 
-[追加リソースのDLリンク](https://www.dropbox.com/sh/i2r8t74riiijw5p/AADz1guLg0-x__EGM5_t4nUJa?dl=0)
+[DL link for additional resources](https://www.dropbox.com/sh/i2r8t74riiijw5p/AADz1guLg0-x__EGM5_t4nUJa?dl=0)
 
 Download the two zip files from the link above. 
 - `dataset_and_inference_data.zip`: Extract it and place the three folders inside in the project root.
