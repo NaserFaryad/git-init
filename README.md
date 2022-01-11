@@ -1,18 +1,18 @@
 # Semantic Segmentation Library
 
-これは汎用的なSemantic Segmentation用ライブラリです。ピクセルごとの多クラス分類を、最低限の準備で行えます。
+This is a generic Semantic Segmentation library. Multi-class classification for each pixel can be done with minimal preparation.
 
-## Google Colabでの環境構築
-大抵このスクリプトはGoogle Colabで実行することが多そうなので，Colabでの環境構築を簡単にしました．
-ローカルを経由しなくてもよくなりました．
-`train_inference.ipynb`内に，gitからcloneして追加リソースをダウンロードする部分を追加しました．
+## Building an environment with Google Colab
+Most of the time, this script is executed by Google Colab, so I made it easy to build the environment with Colab.
+You no longer have to go through the locals.
+`train_inference.ipynb` Added the part to clone from git and download additional resources.
 
-1. 右のボタンからColabで開き，ドライブにコピーする．
+1. Open it with Colab from the button on the right and copy it to the drive.
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kubotaissei/misc/blob/master/train_inference.ipynb)
 2. `train_inference.ipynb`を上から順に実行する．
 
-## 環境構築（仮想環境を構築する場合）
-Pythonは3.6.9、Tensorflowは2.3.xを推奨します。Python3.8系だと動かないかもしれません。
+## Environment construction (when constructing a virtual environment)
+We recommend 3.6.9 for Python and 2.3.x for Tensorflow. It may not work with Python 3.8 series.
 
 MacOS:
 ```
@@ -30,7 +30,7 @@ pip install -r requirements/mac_0828.txt
 
 Ubuntu:
 ```
-動作検証中
+During operation verification
 ```
 
 [追加リソースのDLリンク](https://www.dropbox.com/sh/i2r8t74riiijw5p/AADz1guLg0-x__EGM5_t4nUJa?dl=0)
@@ -160,4 +160,3 @@ label_info["rice"] = (0, 128, 0)
 ``` python
 python stc/sample_inference.py
 ```
-
