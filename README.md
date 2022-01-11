@@ -9,7 +9,7 @@ You no longer have to go through the locals.
 
 1. Open it with Colab from the button on the right and copy it to the drive.
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kubotaissei/misc/blob/master/train_inference.ipynb)
-2. `train_inference.ipynb`を上から順に実行する．
+2. `train_inference.ipynb`From top to bottom．
 
 ## Environment construction (when constructing a virtual environment)
 We recommend 3.6.9 for Python and 2.3.x for Tensorflow. It may not work with Python 3.8 series.
