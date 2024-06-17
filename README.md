@@ -1,10 +1,11 @@
 # Git Important Notes
 
-** Step 1: Check Repository URL **
+**Step 1: Check Repository URL**
 
 First, ensure that the remote repository URL is correct. You can check this by running:
 
-``` git remote -v
+```
+git remote -v
 ```
 
 If the URL is incorrect, you can update it with:
@@ -13,7 +14,7 @@ If the URL is incorrect, you can update it with:
 git remote set-url origin <new-url>
 ```
 
-** Step 2: Check Authentication **
+**Step 2: Check Authentication**
 
 If the repository URL is correct, ensure that your credentials are correctly configured. For repositories hosted on GitHub, you can use a personal access token (PAT) instead of a password.
 
