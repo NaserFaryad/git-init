@@ -20,7 +20,7 @@ If the repository URL is correct, ensure that your credentials are correctly con
 
 1. Generate a Personal Access Token (PAT) on GitHub:
 
-- Go to (GitHub's token settings)[https://github.com/settings/tokens].
+- Go to [GitHub's token settings](https://github.com/settings/tokens).
 - Click "Generate new token".
 - Select the appropriate scopes (usually, *repo* is sufficient).
 - Generate the token and copy it.
