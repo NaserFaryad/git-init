@@ -47,6 +47,35 @@ This will create a merge commit to combine the histories.
 git pull origin develop --no-rebase
 ```
 
+The `--no-rebase` option in Git is used to explicitly specify that you do not want to rebase your local commits when performing a `git pull`. Instead, it uses the default merge strategy to reconcile the differences between your local branch and the remote branch.
+
+*Merge vs. Rebase*
+
+- *Merge (Default):* Combines the histories of the local and remote branches by creating a merge commit.
+- *Rebase:* Reapplies your local commits on top of the fetched remote commits, resulting in a linear history.
+
+*Using `--no-rebase`* 
+
+When you use the `--no-rebase` option with git pull, you are telling Git to use the merge strategy instead of rebase. This means that Git will create a new merge commit that incorporates the changes from the remote branch into your local branch.
+
+*Example:* Suppose your commit history looks like this before pulling:
+
+```
+A---B---C (origin/develop)
+     \
+      D---E---F (local develop)
+```
+
+If you run `git pull origin develop --no-rebase`, Git will merge the remote changes into your local branch, resulting in a history that includes a merge commit:
+
+```
+A---B---C (origin/develop)
+     \   \
+      D---E---F---M (local develop)
+```
+
+Here, `M` is the merge commit that combines the histories of the remote and local branches.
+
 **Option 2: Rebase**
 
 This will rebase your local commits on top of the remote commits.
@@ -55,7 +84,7 @@ This will rebase your local commits on top of the remote commits.
 git pull origin develop --rebase
 ```
 
-The --rebase option in Git is used to reapply your local commits on top of the upstream changes fetched from the remote repository. This is an alternative to merging, and it can result in a cleaner, linear project history.
+The `--rebase` option in Git is used to reapply your local commits on top of the upstream changes fetched from the remote repository. This is an alternative to merging, and it can result in a cleaner, linear project history.
 
 Here’s what happens when you use `--rebase`:
 
