@@ -1,5 +1,7 @@
 # Git Important Notes
 
+## Authentication
+
 **Step 1: Check Repository URL**
 
 First, ensure that the remote repository URL is correct. You can check this by running:
@@ -35,3 +37,4 @@ git remote set-url origin https://<your-username>:<your-token>@github.com/RUTILE
 
 Replace <your-username> with your GitHub username and <your-token> with the generated PAT.
 
+## Merge (Default Strategy)
